@@ -1,0 +1,26 @@
+{
+  "name": "copper",
+  "version": "1.0.0",
+  "description": "Quarry Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fromcortes/copper.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Dennis Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fromcortes/copper/issues"
+  },
+  "homepage": "https://github.com/fromcortes/copper#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

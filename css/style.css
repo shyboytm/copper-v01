@@ -1,2 +1,10 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif; }
+
+.intro-text {
+  background-color: #000; }
+  .intro-text h1 {
+    color: #FFFFFF; }
+  .intro-text p {
+    line-height: 30px;
+    color: #FFFFFF; }

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fromcortes/copper#readme",
   "devDependencies": {
+    "basscss-responsive-margin": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
   }

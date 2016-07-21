@@ -9,14 +9,22 @@
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-  <div class="intro-text row">
-    <div class="small-12 expand columns">
+  <div id="banner" class="intro-text column row" onload="return ran_col()">
+    <div class="vert-center large-6 large-offset-1 small-12 small-centered expanded columns" id='posts'>
       <h1 class="regular">Curation by Designers</h1>
       <p>We are a team of humans that create simple and beautiful digital experiences with the intention of organizing and curating some of the world's most popular online markets.</p>
     </div>
   </div>
+
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
+  <script>$(document).ready(function() {
+    var colors = ['#F5F7FA','#656D78','#27292D','#17191C','#1A1D20','#000000','#4DCBD2','#5D9CEC','#AC92EC','#A0D468','#ED5565','#FCA551'],
+    selectedColor = colors[Math.floor(Math.random()*colors.length)]
+    header = $("div#banner");
+    header.css("background-color", selectedColor);
+});</script>
+
 </body>
 </html>

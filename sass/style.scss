@@ -14,15 +14,24 @@ $red: #ED5565;
 $orange: #FCA551;
 $light-orange: #FFCE54;
 
+html, body { height: 100%; }
+
 body {
  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
 }
 
 .intro-text {
+  height: 100vh;
+  padding: 20% 0px;
   background-color: $black;
   h1 { color: $white }
   p {
     line-height: 30px;
     color: $white;
+  }
+  .vert-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }

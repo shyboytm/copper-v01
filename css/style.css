@@ -1,10 +1,19 @@
+html, body {
+  height: 100%; }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif; }
 
 .intro-text {
+  height: 100vh;
+  padding: 20% 0px;
   background-color: #000; }
   .intro-text h1 {
     color: #FFFFFF; }
   .intro-text p {
     line-height: 30px;
     color: #FFFFFF; }
+  .intro-text .vert-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }

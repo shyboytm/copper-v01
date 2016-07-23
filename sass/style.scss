@@ -154,6 +154,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-se
 
 p { line-height: 30px; }
 
+.disabled { color: $very-light-gray; }
+
 #banner {
   height: 100vh;
   padding: 20% 0px;
@@ -176,7 +178,7 @@ p { line-height: 30px; }
   .company-wrapper {
     .company {
       min-height: 350px;
-      margin: 50px 0px;
+      margin: 20px 0px;
       background-color: $white;
       border-radius: 5px;
       background-color: #fff;
@@ -184,6 +186,7 @@ p { line-height: 30px; }
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       img {
+        border-bottom: 2px solid $very-light-gray;
         width: 100%;
         margin: 0px;
         padding: 0px;
@@ -193,7 +196,7 @@ p { line-height: 30px; }
       }
     }
     .company:hover {
-      box-shadow: 0px 10px 20px rgba($black, 0.1);
+      box-shadow: 0px 10px 30px rgba($black, 0.1);
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       -webkit-transform: scale(1.02, 1.02);

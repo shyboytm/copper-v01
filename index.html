@@ -1,67 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
+
 <head>
-  <link href="css/style.css" rel="stylesheet">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation</title>
+  <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
+  <title>Quarry</title>
 </head>
+
 <body>
-  <div id="banner" class="intro-text column row" onLoad="return ran_col()">
-    <div class="vert-center large-6 large-offset-1 small-12 small-centered expanded columns" id='posts'>
+
+  <div id="banner" class="column row" onLoad="return ran_col()">
+    <div class="vert-center large-5 large-offset-1 small-12 small-centered expanded columns" id='posts'>
+      <img src="img/quarry-full-logo-white.png" class="quarry-logo margin-bottom-5"/>
       <h1 class="regular">Curation by Designers</h1>
-      <p>We are a team of humans that create simple and beautiful digital experiences with the intention of organizing and curating some of the world's most popular online topics.</p>
+      <p>We are a team of two humans that create simple and beautiful digital experiences and resources with the intention of organizing and curating some of the world's most popular online topics.</p>
     </div>
   </div>
-  <div id="companies" class="column row">
-    <div class="small-12 small-centered text-center columns">
-      <h3>Our Projects</h3>
+
+  <div class="column row very-light-gray-background">
+    <div class="small-12 small-centered text-center columns margin-top-5 margin-bottom-3">
+      <h5>Our Projects</h5>
     </div>
+  </div>
+
+  <div id="companies" class="column row very-light-gray-background">
     <div class="large-10 large-centered small-12 small-uncentered columns">
       <div class="column row">
 
         <!-- Shop Drones Co. -->
-        <div class="company-wrapper large-4 medium-6 small-12 columns">
-          <div class="company row"><a href="#">
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row"><a href="http://www.shopdrones.co">
             <div>
               <img src="img/shop-drones-cover.png"/>
             </div>
             <div class="company-copy small-12 columns">
               <h1>Shop Drones Co.</h1>
               <span><em>by Quarry</em></span>
-              <p>Drone shopping made beautifully simple</p>
+              <p>A digital experience that makes drone shopping simple, enjoyable, and beautiful.</p>
             </div>
           </div></a>
         </div>
 
-        <!-- Shop Drones Co. -->
-        <div class="company-wrapper large-4 medium-6 small-12 columns">
-          <div class="company row"><a href="#">
+        <!-- Calligritype -->
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row"><a href="https://www.instagram.com/calligritype/">
             <div>
-              <img src="img/shop-drones-cover.png"/>
+              <img src="img/calligritype-cover.png"/>
             </div>
             <div class="company-copy small-12 columns">
-              <h1>Shop Drones Co.</h1>
-              <span><em>by Quarry</em></span>
-              <p>Drone shopping made beautifully simple</p>
+              <h1>Calligritype</h1>
+              <span><em>by Dennis Cortés</em></span>
+              <p>A curated resource and showcase for design news and inspiration.</p>
             </div>
           </div></a>
         </div>
 
-        <!-- Shop Drones Co. -->
-        <div class="company-wrapper large-4 medium-6 small-12 columns">
-          <div class="company row"><a href="#">
+        <!-- Illustree -->
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row"><a href="https://www.instagram.com/illustree/">
             <div>
-              <img src="img/shop-drones-cover.png"/>
+              <img src="img/illustree-cover.png"/>
             </div>
             <div class="company-copy small-12 columns">
-              <h1>Shop Drones Co.</h1>
-              <span><em>by Quarry</em></span>
-              <p>Drone shopping made beautifully simple</p>
+              <h1>Illustree</h1>
+              <span><em>by Dennis Cortés</em></span>
+              <p>A resource and showcase for illustration inspiration.</p>
             </div>
           </div></a>
+        </div>
+
+        <!-- Prisma -->
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row"><a href="https://atom.io/users/fromcortes">
+            <div>
+              <img src="img/prisma-cover.png"/>
+            </div>
+            <div class="company-copy small-12 columns">
+              <h1>Prisma</h1>
+              <span><em>by Dennis Cortés</em></span>
+              <p>A beautiful and minimal dark theme for the text editor Atom.</p>
+            </div>
+          </div></a>
+        </div>
+
+        <!-- Much Clean -->
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row"><a href="#">
+            <div>
+              <img src="img/much-clean-cover.png"/>
+            </div>
+            <div class="company-copy small-12 columns">
+              <h1>Much Clean</h1>
+              <span><em>by Dennis Cortés</em></span>
+              <p>A resource for lifestyle aesthetic inspiration.</p>
+            </div>
+          </div></a>
+        </div>
+
+        <!-- More Food Co-->
+        <div class="company-wrapper left large-4 medium-6 small-12 columns">
+          <div class="company row">
+            <div>
+              <img src="img/morefood-cover.png"/>
+            </div>
+            <div class="company-copy small-12 columns">
+              <h1>More Food Co.</h1>
+              <span><em>Coming Soon!</em></span>
+              <p>Lifestyle goods for those who accept their love for food.</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -71,12 +121,15 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
+
+  <!-- Refresh color change script, requires a targeted id -->
   <script>$(document).ready(function() {
-    var colors = ['#656D78','#27292D','#17191C','#1A1D20','#000000','#4DCBD2','#5D9CEC','#AC92EC','#A0D468','#ED5565','#FCA551'],
-    selectedColor = colors[Math.floor(Math.random()*colors.length)]
-    banner = $("div#banner");
-    banner.css("background-color", selectedColor);
-});</script>
+    var colors = ['#F78889', '#B7B7B7', '#8D6053', '#D2C193', '#BFE0BF', '#656D78','#27292D','#17191C','#1A1D20','#000000','#4DCBD2','#5D9CEC','#AC92EC','#A0D468','#ED5565','#FCA551', '#1495EB', '#AA81F3', '#10DDA2', '#394452'],
+      selectedColor = colors[Math.floor(Math.random()*colors.length)]
+      banner = $("div#banner");
+      banner.css("background-color", selectedColor);
+    });
+  </script>
 
 </body>
 </html>

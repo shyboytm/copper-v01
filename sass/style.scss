@@ -1,12 +1,27 @@
 // GLOBAL STYLES
-// - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// HELPERS
-  // These classes will help you reduce the amount of custom code you need to write
-// - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - Table of Contents - - - - -
+
+// All classes are "helper" classes besides Custom Styles
+// Helper classes will help you reduce the amount of custom code you need to write
+  // Use helper classes as needed
+// Custom classes were made for Quarry needs
+  // Feel free to dissect and change custom classes as needed
+
+// a. Colors
+// b. Backgrounds
+// c. Typography
+// d. Measurements
+// e. Margin
+// f. Padding
+// g. Custom Styles
+
+// - - - - - End Table of Contents - - - - -
+
 
 // a. Colors
   // Change these variables to suit your needs and color palette
+  // Will affect other global settings
 
 // Neutral
 $white: #FFFFFF;
@@ -15,7 +30,7 @@ $light-gray: #B8BDC4;
 $gray: #7E838A;
 $dark-gray: #27292D;
 $very-dark-gray: #17191C;
-$black: #000;
+$black: #000000;
 
 // Color
 $cyan: #4DCBD2;
@@ -32,13 +47,13 @@ $yellow: #FFCE54;
 .very-light-gray-background { background-color: $very-light-gray; }
 
 
-// d. Typography
+// c. Typography
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
 
-// c. Measurements
+// d. Measurements
   // Used for global sizes
   // Change these values as needed
   // I prefer to work in increments of 10px
@@ -52,7 +67,6 @@ $five: 50px;
 
 // e. Margin
   // If not needed, comment out for later or delete
-
 .margin-0 { margin: $zero; }
 .margin-1 { margin: $one; }
 .margin-2 { margin: $two; }
@@ -91,7 +105,6 @@ $five: 50px;
 
 // f. Padding
   // If not needed, comment out for later or delete
-
 .padding-0 { padding: $zero; }
 .padding-1 { padding: $one; }
 .padding-2 { padding: $two; }
@@ -129,14 +142,15 @@ $five: 50px;
 
 
 
+// - - - - - End Helper Classes - - - - -
 
-// CUSTOM STYLES
+
+
+// g. Custom Styles
 
 html, body { height: 100%; }
 
-body {
- font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-}
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
 
 p { line-height: 30px; }
 
@@ -182,6 +196,8 @@ p { line-height: 30px; }
       box-shadow: 0px 10px 20px rgba($black, 0.1);
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-transform: scale(1.02, 1.02);
+      transform: scale(1.02, 1.02);
     }
   }
 }
@@ -191,13 +207,14 @@ p { line-height: 30px; }
   h1 {
     margin: 0;
     color: $black;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
   span {
     margin-bottom: 30px;
+    font-size: 13px;
     color: $light-gray;
   }
   p {

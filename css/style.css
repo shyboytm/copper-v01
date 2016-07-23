@@ -237,19 +237,22 @@ p {
 #companies .company-wrapper .company:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02); }
 
 .company-copy {
   padding: 20px; }
   .company-copy h1 {
     margin: 0;
-    color: #000;
-    font-size: 20px;
+    color: #000000;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px; }
   .company-copy span {
     margin-bottom: 30px;
+    font-size: 13px;
     color: #B8BDC4; }
   .company-copy p {
     margin-top: 10px;

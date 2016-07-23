@@ -1,11 +1,20 @@
+// GLOBAL STYLES
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+// COLORS
+  // Change these variables to suit your needs and color palette
+
+// Neutral
 $white: #FFFFFF;
-$very-light-gray: #F5F7FA;
-$light-gray: #656D78;
-$gray: #27292D;
-$dark-gray: #17191C;
-$very-dark-gray: #1A1D20;
+$very-light-gray: #F8F9F9;
+$light-gray: #B8BDC4;
+$gray: #7E838A;
+$dark-gray: #27292D;
+$very-dark-gray: #17191C;
 $black: #000;
 
+// Color
 $cyan: #4DCBD2;
 $blue: #5D9CEC;
 $purple: #AC92EC;
@@ -14,24 +23,88 @@ $red: #ED5565;
 $orange: #FCA551;
 $light-orange: #FFCE54;
 
+
+// HELPERS
+  // These classes will help you reduce the amount of custom code you need to write
+
+// Typography
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+// Margins
+
+
+// STYLES
+
 html, body { height: 100%; }
 
 body {
- font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+ font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
+
+p { line-height: 30px; }
 
 .intro-text {
   height: 100vh;
   padding: 20% 0px;
   background-color: $black;
-  h1 { color: $white }
-  p {
-    line-height: 30px;
+  h1 {
     color: $white;
+    letter-spacing: 1px;
   }
+  p { color: $white; }
   .vert-center {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+#companies {
+  background-color: $very-light-gray;
+  .company-wrapper {
+    .company {
+      margin: 50px 0px;
+      background-color: $white;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0px 1px 5px rgba($black, 0.1);
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      img {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 5px 5px 0px 0px;
+        -moz-border-radius: 5px 5px 0px 0px;
+        -webkit-border-radius: 5px 5px 0px 0px;
+      }
+    }
+    .company:hover {
+      box-shadow: 0px 10px 20px rgba($black, 0.1);
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+  }
+}
+
+.company-copy {
+  padding: 20px;
+  h1 {
+    font-size: 20px;
+    margin: 0;
+    color: $black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  span {
+    margin-bottom: 30px;
+    color: $light-gray;
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: $gray;
   }
 }

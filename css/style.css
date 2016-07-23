@@ -1,19 +1,69 @@
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
 html, body {
   height: 100%; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+
+p {
+  line-height: 30px; }
 
 .intro-text {
   height: 100vh;
   padding: 20% 0px;
   background-color: #000; }
   .intro-text h1 {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    letter-spacing: 1px; }
   .intro-text p {
-    line-height: 30px;
     color: #FFFFFF; }
   .intro-text .vert-center {
     position: relative;
     top: 50%;
     transform: translateY(-50%); }
+
+#companies {
+  background-color: #F8F9F9; }
+  #companies .company-wrapper .company {
+    margin: 50px 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    #companies .company-wrapper .company img {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      border-radius: 5px 5px 0px 0px;
+      -moz-border-radius: 5px 5px 0px 0px;
+      -webkit-border-radius: 5px 5px 0px 0px; }
+  #companies .company-wrapper .company:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
+
+.company-copy {
+  padding: 20px; }
+  .company-copy h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .company-copy span {
+    margin-bottom: 30px;
+    color: #B8BDC4; }
+  .company-copy p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #7E838A; }

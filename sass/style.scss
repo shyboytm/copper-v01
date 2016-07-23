@@ -11,10 +11,11 @@
 // a. Colors
 // b. Backgrounds
 // c. Typography
-// d. Measurements
-// e. Margin
-// f. Padding
-// g. Custom Styles
+// d. Floats
+// e. Measurements
+// f. Margin
+// g. Padding
+// h. Custom Styles
 
 // - - - - - End Table of Contents - - - - -
 
@@ -52,8 +53,12 @@ $yellow: #FFCE54;
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 
+// d. Floats
+.left { float: left; }
+.right { float: right; }
 
-// d. Measurements
+
+// e. Measurements
   // Used for global sizes
   // Change these values as needed
   // I prefer to work in increments of 10px
@@ -65,7 +70,7 @@ $four: 40px;
 $five: 50px;
 
 
-// e. Margin
+// f. Margin
   // If not needed, comment out for later or delete
 .margin-0 { margin: $zero; }
 .margin-1 { margin: $one; }
@@ -103,7 +108,7 @@ $five: 50px;
 .margin-left-5 { margin-left: $five; }
 
 
-// f. Padding
+// g. Padding
   // If not needed, comment out for later or delete
 .padding-0 { padding: $zero; }
 .padding-1 { padding: $one; }
@@ -146,7 +151,7 @@ $five: 50px;
 
 
 
-// g. Custom Styles
+// h. Custom Styles
 
 html, body { height: 100%; }
 
@@ -154,7 +159,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-se
 
 p { line-height: 30px; }
 
-.disabled { color: $very-light-gray; }
+h5 {
+  margin: 0;
+  color: $black;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 
 #banner {
   height: 100vh;
@@ -182,7 +194,7 @@ p { line-height: 30px; }
       background-color: $white;
       border-radius: 5px;
       background-color: #fff;
-      box-shadow: 0px 1px 5px rgba($black, 0.1);
+      box-shadow: 0px 1px 3px rgba($black, 0.1);
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       img {

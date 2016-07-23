@@ -13,6 +13,12 @@
 .text-right {
   text-align: right; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
 .margin-0 {
   margin: 0px; }
 
@@ -202,8 +208,12 @@ body {
 p {
   line-height: 30px; }
 
-.disabled {
-  color: #F8F9F9; }
+h5 {
+  margin: 0;
+  color: #000000;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 #banner {
   height: 100vh;
@@ -226,7 +236,7 @@ p {
   background-color: #FFFFFF;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
   #companies .company-wrapper .company img {

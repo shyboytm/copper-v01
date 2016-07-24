@@ -13,6 +13,10 @@
 .text-right {
   text-align: right; }
 
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 .left {
   float: left; }
 
@@ -302,7 +306,7 @@ h5 {
   text-decoration: underline; }
 
 @media only screen and (max-width: 40em) {
-  .about-copy h1 {
+  .about-copy h2 {
     margin-top: 50px; } }
 
 .social-link {

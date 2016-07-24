@@ -54,6 +54,10 @@ $yellow: #FFCE54;
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 // d. Floats
 .left { float: left; }
@@ -268,7 +272,7 @@ h5 {
   a:hover { text-decoration: underline; }
 
   @media only screen and (max-width: 40em) {
-    h1 {
+    h2 {
       margin-top: $five;
     }
   }

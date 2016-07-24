@@ -54,6 +54,7 @@ $yellow: #FFCE54;
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
+.bold { font-weight: 700; }
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -271,9 +272,12 @@ h5 {
   p { color: $gray; }
   a:hover { text-decoration: underline; }
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 60em) {
     h2 {
       margin-top: $five;
+    }
+    .about-copy {
+      float: left;
     }
   }
 }

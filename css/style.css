@@ -13,6 +13,9 @@
 .text-right {
   text-align: right; }
 
+.bold {
+  font-weight: 700; }
+
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 1px; }
@@ -305,9 +308,11 @@ h5 {
 .about-copy a:hover {
   text-decoration: underline; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 60em) {
   .about-copy h2 {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .about-copy .about-copy {
+    float: left; } }
 
 .social-link {
   color: #B8BDC4 !important; }

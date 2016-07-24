@@ -279,21 +279,31 @@ h5 {
 #about {
   border-top: 1px solid #eaeded; }
 
-.about-copy {
-  padding: 0 50px !important; }
+.about-copy img {
+  border-radius: 50%; }
+
+.about-copy h1 {
+  margin-top: 0px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.about-copy span {
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #B8BDC4; }
+
+.about-copy p {
+  color: #7E838A; }
+
+.about-copy a:hover {
+  text-decoration: underline; }
+
+@media only screen and (max-width: 40em) {
   .about-copy h1 {
-    margin-top: 30px;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
-  .about-copy span {
-    margin-bottom: 30px;
-    font-size: 13px;
-    color: #B8BDC4; }
-  .about-copy p {
-    color: #7E838A; }
+    margin-top: 50px; } }
 
 .social-link {
   color: #B8BDC4 !important; }

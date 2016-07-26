@@ -326,8 +326,10 @@ h5 {
 .contact-div span {
   font-size: 12px !important; }
 
-#footer span {
-  font-size: 12px; }
+#footer {
+  margin-top: 50px !important; }
+  #footer span {
+    font-size: 12px; }
 
 .social-link {
   color: #B8BDC4 !important; }

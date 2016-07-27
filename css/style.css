@@ -334,6 +334,8 @@ h5 {
   margin-top: 50px !important; }
   #footer span {
     font-size: 12px; }
+  #footer .open-source {
+    color: #ED5565 !important; }
 
 .social-link {
   color: #B8BDC4 !important; }

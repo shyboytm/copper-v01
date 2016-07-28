@@ -185,7 +185,7 @@ h5 {
   }
   p { color: $white; }
   .vert-center {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -203,6 +203,7 @@ h5 {
       box-shadow: 0px 1px 3px rgba($black, 0.1);
       -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      overflow: visible;
       img {
         border-bottom: 2px solid $very-light-gray;
         width: 100%;
@@ -219,6 +220,7 @@ h5 {
       transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
       -webkit-transform: scale(1.02, 1.02);
       transform: scale(1.02, 1.02);
+      overflow: visible;
     }
     @media only screen and (min-width: 40.063em) and (max-width: 64em) {
       .company {
@@ -309,7 +311,7 @@ h5 {
     font-size: 12px;
   }
   .open-source {
-    color: $red;
+    color: $red !important;
   }
 }
 

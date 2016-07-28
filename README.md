@@ -20,7 +20,7 @@ You'll need to have the following items installed before continuing.
 ## Quickstart
 
 ```bash
-git clone git@github.com:fromcortes/descender.git
+git clone https://github.com/fromcortes/copper.git
 npm install && bower install
 ```
 While you're working on your project and want to edit the global Sass files, run `gulp`

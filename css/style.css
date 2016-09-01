@@ -285,6 +285,9 @@ h5 {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px; }
+    .company-copy h1 span {
+      font-size: 16px;
+      color: #ED5565; }
   .company-copy span {
     margin-bottom: 30px;
     font-size: 13px;
@@ -343,25 +346,33 @@ h5 {
     color: #ED5565 !important; }
 
 .social-link {
-  color: #B8BDC4 !important; }
+  color: #B8BDC4 !important;
+  font-weight: 700; }
 
 .shop-drones-link {
-  color: #FB4B4B !important; }
+  color: #FB4B4B !important;
+  font-weight: 700; }
 
 .calligritype-link {
-  color: #000000 !important; }
+  color: #000000 !important;
+  font-weight: 700; }
 
 .illustree-link {
-  color: #73AE51 !important; }
+  color: #73AE51 !important;
+  font-weight: 700; }
 
 .prisma-link {
-  color: #F6A35A !important; }
+  color: #F6A35A !important;
+  font-weight: 700; }
 
 .much-clean-link {
-  color: #27292D !important; }
+  color: #27292D !important;
+  font-weight: 700; }
 
-.more-food-link {
-  color: #7F7F7F !important; }
+.fieldy-link {
+  color: #AF9D6A !important;
+  font-weight: 700; }
 
 .dennis-cortes-link {
-  color: #D2C193 !important; }
+  color: #D2C193 !important;
+  font-weight: 700; }

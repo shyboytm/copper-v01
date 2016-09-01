@@ -242,6 +242,10 @@ h5 {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
+    span {
+      font-size: 16px;
+      color: $red;
+    }
   }
   span {
     margin-bottom: 30px;
@@ -307,7 +311,6 @@ h5 {
   }
 }
 
-
 #footer {
   margin-top: 50px !important;
   span {
@@ -319,11 +322,11 @@ h5 {
 }
 
 // Link Colors
-.social-link          { color: $light-gray !important; }
-.shop-drones-link     { color: #FB4B4B !important; }
-.calligritype-link    { color: #000000 !important; }
-.illustree-link       { color: #73AE51 !important; }
-.prisma-link          { color: #F6A35A !important; }
-.much-clean-link      { color: #27292D !important; }
-.more-food-link       { color: #7F7F7F !important; }
-.dennis-cortes-link   { color: #D2C193 !important; }
+.social-link          { color: $light-gray !important; font-weight: 700; }
+.shop-drones-link     { color: #FB4B4B !important; font-weight: 700; }
+.calligritype-link    { color: #000000 !important; font-weight: 700; }
+.illustree-link       { color: #73AE51 !important; font-weight: 700; }
+.prisma-link          { color: #F6A35A !important; font-weight: 700; }
+.much-clean-link      { color: #27292D !important; font-weight: 700; }
+.fieldy-link          { color: #AF9D6A !important; font-weight: 700; }
+.dennis-cortes-link   { color: #D2C193 !important; font-weight: 700; }

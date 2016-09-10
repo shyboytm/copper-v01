@@ -19,6 +19,27 @@
 .black {
   color: #000000; }
 
+.white:hover {
+  color: #cccccc; }
+
+.very-light-gray:hover {
+  color: #c1caca; }
+
+.light-gray {
+  color: #B8BDC4; }
+
+.gray {
+  color: #7E838A; }
+
+.dark-gray {
+  color: #27292D; }
+
+.very-dark-gray {
+  color: #17191C; }
+
+.black {
+  color: #000000; }
+
 .white-background {
   background-color: #FFFFFF; }
 
@@ -260,7 +281,7 @@ h5 {
     color: #FFFFFF;
     letter-spacing: 1px; }
   #banner p {
-    color: #FFFFFF; }
+    color: #F8F9F9; }
   #banner .vert-center {
     position: absolute;
     top: 50%;
@@ -315,8 +336,7 @@ h5 {
     color: #B8BDC4; }
   .company-copy p {
     margin-top: 10px;
-    margin-bottom: 10px;
-    color: #7E838A; }
+    margin-bottom: 10px; }
 
 #about {
   border-top: 1px solid #eaeded; }
@@ -333,8 +353,6 @@ h5 {
     margin-bottom: 30px;
     font-size: 13px;
     color: #B8BDC4; }
-  #about .about-copy p {
-    color: #7E838A; }
   #about .about-copy a:hover {
     text-decoration: underline; }
   @media only screen and (max-width: 60em) {

@@ -1,3 +1,24 @@
+.white {
+  color: #FFFFFF; }
+
+.very-light-gray {
+  color: #F8F9F9; }
+
+.light-gray {
+  color: #B8BDC4; }
+
+.gray {
+  color: #7E838A; }
+
+.dark-gray {
+  color: #27292D; }
+
+.very-dark-gray {
+  color: #17191C; }
+
+.black {
+  color: #000000; }
+
 .white-background {
   background-color: #FFFFFF; }
 
@@ -344,6 +365,9 @@ h5 {
     font-size: 12px; }
   #footer .open-source {
     color: #ED5565 !important; }
+
+.0-50 {
+  opacity: 0.5; }
 
 .social-link {
   color: #B8BDC4 !important;

@@ -23,22 +23,30 @@
   // Will affect other global settings
 
 // Neutral
-$white: #FFFFFF;
-$very-light-gray: #F8F9F9;
-$light-gray: #B8BDC4;
-$gray: #7E838A;
-$dark-gray: #27292D;
-$very-dark-gray: #17191C;
-$black: #000000;
+$white:             #FFFFFF;
+$very-light-gray:   #F8F9F9;
+$light-gray:        #B8BDC4;
+$gray:              #7E838A;
+$dark-gray:         #27292D;
+$very-dark-gray:    #17191C;
+$black:             #000000;
+
+.white              { color: $white; }
+.very-light-gray    { color: $very-light-gray; }
+.light-gray         { color: $light-gray; }
+.gray               { color: $gray; }
+.dark-gray          { color: $dark-gray; }
+.very-dark-gray     { color: $very-dark-gray; }
+.black              { color: $black; }
 
 // Color
-$cyan: #4DCBD2;
-$blue: #5D9CEC;
-$purple: #AC92EC;
-$green: #A0D468;
-$red: #ED5565;
-$orange: #FCA551;
-$yellow: #FFCE54;
+$cyan:              #4DCBD2;
+$blue:              #5D9CEC;
+$purple:            #AC92EC;
+$green:             #A0D468;
+$red:               #ED5565;
+$orange:            #FCA551;
+$yellow:            #FFCE54;
 
 
 // b. Backgrounds
@@ -66,12 +74,12 @@ $yellow: #FFCE54;
   // Used for global sizes
   // Change these values as needed
   // I prefer to work in increments of 10px
-$zero: 0px;
-$one: 10px;
-$two: 20px;
+$zero:  0px;
+$one:   10px;
+$two:   20px;
 $three: 30px;
-$four: 40px;
-$five: 50px;
+$four:  40px;
+$five:  50px;
 
 
 // f. Margin
@@ -320,6 +328,8 @@ h5 {
     color: $red !important;
   }
 }
+
+.0-50 { opacity: 0.5;}
 
 // Link Colors
 .social-link          { color: $light-gray !important; font-weight: 700; }

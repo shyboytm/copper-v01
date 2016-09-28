@@ -452,3 +452,12 @@ h5 {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+div#banner{
+       -webkit-transition:background-color ease-in-out 1s;
+       transition:background-color ease-in-out 1s;
+     }
+     div#banner button{
+       color:white;
+       outline:none;
+     }

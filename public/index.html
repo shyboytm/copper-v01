@@ -15,5 +15,26 @@
   </head>
   <body class="w-100 center cf usual">
     <div id="root"></div>
+    <!-- Refresh color change script, requires a targeted id -->
+     <script type="text/javascript">
+       $(document).ready(function() {
+            $("div#banner button").on("click", function( e ){
+              changeBackgroundColor();
+              e.preventDefault();
+            });
+            function changeBackgroundColor(){
+              var colors = ['#F78889', '#B7B7B7', '#8D6053', '#D2C193', '#BFE0BF',
+                            '#656D78','#27292D','#17191C','#1A1D20','#000000','#4DCBD2',
+                            '#5D9CEC','#AC92EC','#A0D468','#ED5565','#FCA551', '#1495EB',
+                            '#AA81F3', '#10DDA2', '#394452', '#1033FF', '#F79C82','#D54980',
+                            '#F15A29', '#5CBB8B', '#6CBD9A', '#E10729', '#00C4A7', '#FB86AF',
+                            '#9E47C9', '#050D26', '#36333C', '#B9864D', '#FB4017', '#D83487'
+                           ];
+              var selectedColor = colors[Math.floor(Math.random()*colors.length)];
+              $("div#banner").css('background-color', selectedColor);
+            }
+            changeBackgroundColor();
+          });
+     </script>
   </body>
 </html>

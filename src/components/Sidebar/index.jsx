@@ -34,6 +34,12 @@ class Sidebar extends Component {
               <li className="forward pv3 black-50">Wallpapers</li>
             </Link>
           </ul>
+          <div id="Sponsor" className="w-90 mb3 db pl3 center bottom-0 absolute">
+            <span className="f6 i black-20">Sponsored by</span>
+            <div className="bg-black-05 br2 mt2 pa4">
+              <span className="tc">Squarespace</span>
+            </div>
+          </div>
         </div>
       </div>
     );

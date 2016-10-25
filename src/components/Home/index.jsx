@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
+import Sidebar from '../Sidebar';
+
 class Home extends Component {
   render() {
     return (
       <div id="Home">
-        <h1 className="fw5">Curated Resources for Humans</h1>
-        <p>testing</p>
+        <Sidebar />
       </div>
     );
   }

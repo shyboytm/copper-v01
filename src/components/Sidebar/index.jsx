@@ -9,27 +9,29 @@ class Sidebar extends Component {
     return (
       <div id="Sidebar">
         <div className="w5-l h-100 ph2 pv4 fixed br b--black-10 fl dib-l dn">
-          <img className="w-60 pb3 db center" src={logoImage} alt="Quarry" />
+          <Link to="/">
+            <img className="dim w-60 pb3 db center" src={logoImage} alt="Quarry" />
+          </Link>
           <ul className="list">
             <Link>
-              <li className="dim pv3">Projects</li>
+              <li className="forward pv3">Projects</li>
             </Link>
             <Link>
-              <li className="dim pv3">About</li>
+              <li className="forward pv3">About</li>
             </Link>
             <Link>
-              <li className="dim pv3">Contact</li>
+              <li className="forward pv3">Contact</li>
             </Link>
             <Link>
-              <li className="dim pv3">Sponsor</li>
+              <li className="forward pv3">Sponsor</li>
             </Link>
           </ul>
           <ul className="list mt2">
             <Link>
-              <li className="dim pv3 black-50">Newsletter</li>
+              <li className="forward pv3 black-50">Newsletter</li>
             </Link>
             <Link>
-              <li className="dim pv3 black-50">Wallpapers</li>
+              <li className="forward pv3 black-50">Wallpapers</li>
             </Link>
           </ul>
         </div>

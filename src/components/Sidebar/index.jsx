@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class Sidebar extends Component {
   render() {
     return (
-      <div id="Home">
+      <div id="Sidebar">
         <h1 className="fw5">Curated Resources for Humans</h1>
         <p>testing</p>
       </div>
@@ -11,4 +11,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Sidebar;

@@ -24,6 +24,14 @@ class Sidebar extends Component {
               <li className="dim pv3">Sponsor</li>
             </Link>
           </ul>
+          <ul className="list mt2">
+            <Link>
+              <li className="dim pv3 black-50">Newsletter</li>
+            </Link>
+            <Link>
+              <li className="dim pv3 black-50">Wallpapers</li>
+            </Link>
+          </ul>
         </div>
       </div>
     );

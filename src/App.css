@@ -1,6 +1,7 @@
 @import "tachyons.min.css";
 
-.usual  { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
+.usual      { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
+.t-tracking { letter-spacing: 1px; }
 
 /* Forward */
 .forward {

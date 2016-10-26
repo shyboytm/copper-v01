@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <div id="Home">
         <Sidebar />
-        <div id="HomePage" className="mv0 fr w-80-l w-100 bg-black-10">
+        <div id="HomePage" className="mv0 fr w-80-l w-100 bg-white-ns bg-white">
           <div id="Banner" className="bg-black pa6-l pa5-m ph4 pv5">
             <div className="w-100">
               <h1 className="mt0 mb4 fw4 f2-ns f3 white t-tracking lh-title">
@@ -38,13 +38,13 @@ class Home extends Component {
             </div>
           </div>
           <div id="About-Us" className="content-end bg-white">
-            <div className="bg-white fl w-60-l w-100 ph6-l pv5-l pa5-m pa4">
+            <div className="bg-white fl w-60-l w-100 pl6-l pr5-l pv5-l pa5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">About Us</h2>
               <p className="mb4 fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
               <a className="fl f6 link dim br2 ph4 pv3 mb2 dib white bg-black" href="#0">Learn More</a>
             </div>
-            <div className="fr bg-white w-40-l w-100 ph4-l pv5-l pa5-m pa4">
-              <div className="mv5 fl w-100">
+            <div className="fr bg-white w-40-l w-100 pv5-l pa5-m pa4">
+              <div className="mv5-l mt2 mb5 fl w-100">
                 <div className="mr4 fl tc">
                   <img src={dennisAvatar}
                     className="fl bg-near-white br-100 h3 w3 dib" alt="avatar" />

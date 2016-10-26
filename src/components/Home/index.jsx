@@ -32,7 +32,7 @@ class Home extends Component {
               <div className="bg-near-white fl w-60-l w-100 ph6-l pv5-l pa5-m pa4">
                 <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Projects</h2>
                 <p className="fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
-                <p className="fl mb4 lh-copy black-60">Phasellus non elementum ex. Morbi ullamcorper semper dolor, id varius lacus venenatis ac. Ut orci sem, ornare ac risus non, mollis posuere magna. Nam sit amet nisl feugiat, pulvinar metus a, pellentesque nisid varius lacus.</p>
+                <p className="fl mb5 lh-copy black-60">Phasellus non elementum ex. Morbi ullamcorper semper dolor, id varius lacus venenatis ac. Ut orci sem, ornare ac risus non, mollis posuere magna. Nam sit amet nisl feugiat, pulvinar metus a, pellentesque nisid varius lacus.</p>
                 <a className="fl f6 link dim br2 ph4 pv3 mb2 dib white bg-black" href="#0">View Projects</a>
               </div>
             </div>
@@ -40,7 +40,7 @@ class Home extends Component {
           <div id="About-Us" className="content-end bg-white">
             <div className="bg-white fl w-60-l w-100 pl6-l pr5-l pv5-l pa5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">About Us</h2>
-              <p className="mb4 fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
+              <p className="mb5 fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
               <a className="fl f6 link dim br2 ph4 pv3 mb2 dib white bg-black" href="#0">Learn More</a>
             </div>
             <div className="fr bg-white w-40-l w-100 pv5-l pa5-m pa4">

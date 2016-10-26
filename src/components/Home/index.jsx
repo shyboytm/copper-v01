@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Sidebar from '../Sidebar';
+import TopBar from '../TopBar';
 
 class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends Component {
     return (
       <div id="Home">
         <Sidebar />
+        <TopBar />
         <div id="HomePage" className="mv0 fr w-80-l w-100 bg-white-ns bg-white">
           <div id="Banner" className="bg-black pa6-l pa5-m ph4 pv5">
             <div className="w-100">

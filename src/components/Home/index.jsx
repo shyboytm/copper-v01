@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Sidebar from '../Sidebar';
 import TopBar from '../TopBar';
+import Contact from '../Contact';
 
 class Home extends Component {
   render() {
@@ -14,7 +15,8 @@ class Home extends Component {
         <Sidebar />
         <TopBar />
         <div id="HomePage" className="mv0 fr w-80-l w-100 bg-white-ns bg-white">
-          <div id="Banner" className="bg-black pa6-l pa5-m ph4 pv5">
+
+          <div id="Banner" className="bg-black pa6-l pa5-m ph4 pv5 cf">
             <div className="w-100">
               <h1 className="mt0 mb4 fw4 f2-ns f3 white t-tracking lh-title">
                 Curated Resources <br className="dn-ns dib" />for Humans
@@ -26,7 +28,8 @@ class Home extends Component {
               </p>
             </div>
           </div>
-          <div id="Our-Projects">
+
+          <div id="Our-Projects" className="cf">
             <div>
               <img className="ma0 pa0 dn-l db" src={projectsMobileImage} alt="Workspace"/>
             </div>
@@ -39,7 +42,8 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div id="About-Us" className="content-end bg-white">
+
+          <div id="About-Us" className="content-end bg-white db cf">
             <div className="bg-white fl w-60-l w-100 pl6-l pr5-l pv5-l pa5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">About Us</h2>
               <p className="mb5 fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
@@ -66,6 +70,9 @@ class Home extends Component {
               </div>
             </div>
           </div>
+
+          <Contact />
+
         </div>
       </div>
     );

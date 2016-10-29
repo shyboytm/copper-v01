@@ -36,7 +36,19 @@ class Projects extends Component {
             <Project
               projectImageSource={imgCalligritype}
               projectTitle="Calligritype"
-              projectDescription="A Place for Artists &amp; Designers"
+              projectDescription="A place for artists &amp; designers"
+              projectUrlColor="red"
+              projectUrl="calligritype.us" />
+            <Project
+              projectImageSource={imgSogol}
+              projectTitle="Sogol"
+              projectDescription="Hand crafted and on-demand logos for your ideas"
+              projectUrlColor="gold"
+              projectUrl="sogol.co" />
+            <Project
+              projectImageSource={imgCalligritype}
+              projectTitle="Calligritype"
+              projectDescription="A place for artists &amp; designers"
               projectUrlColor="red"
               projectUrl="calligritype.us" />
           </div>

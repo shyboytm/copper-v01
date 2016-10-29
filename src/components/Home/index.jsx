@@ -23,9 +23,9 @@ class Home extends Component {
                 Curated Resources <br className="dn-ns dib" />for Humans
               </h1>
               <p className="mb0 lh-copy measure white-70">
-                We are a team of two that create simple, beautiful digital experiences
-                and resources with the intention of organizing and curating some of the
-                world's most popular online topics.
+                Quarry is a company that creates companies. We are a team of two that
+                create simple, beautiful, and useful digital resources and experiences.
+                We focus on making things that help others.
               </p>
             </div>
           </div>

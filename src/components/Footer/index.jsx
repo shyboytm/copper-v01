@@ -8,10 +8,10 @@ class Footer extends Component {
 
     return (
       <div id="Footer" className="w-100 pv5 ph4 bg-black">
-        <div className="cf center w-80">          
+        <div className="cf center w-80">
           <div className="mt2 fr-ns fl w-100">
             <a href="mailto:contact@usequarry.com" className="usual dim link fw4 f4 white">contact@usequarry.com</a>
-            <p className="f6 fw5 ttu white-50">© 2016 Quarry</p>
+            <p className="f6 fw5 ttu white-50 t-tracking">© 2016 Quarry</p>
             <div className="mt3">
               <Link to="/" title="Home"
                 className="link f5 dib-ns db pr2-ns mt0-ns mt2 white-30 hover-light-silver">

@@ -5,9 +5,6 @@ import Logo from '../Logo';
 
 class Sidebar extends Component {
   render() {
-
-    const logoImage = require('../../img/quarry-black-logo.png');
-
     return (
       <div id="Sidebar">
         <div className="w-15-l h-100 ph1 pv4 fixed br b--black-10 fl dib-l dn">

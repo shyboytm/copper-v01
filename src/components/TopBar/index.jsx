@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Logo from '../Logo';
+
 class TopBar extends Component {
   render() {
-
-    const logoImage = require('../../img/quarry-black-logo.png');
-
     return (
       <div id="TopBar">
         <div className="w-100 ph1 bg-white fl dn-l db">
-          <Link to="/">
-            <img className="dim w4 pv3 db center" src={logoImage} alt="Quarry" />
+          <Link to="/" className="dim w4 pv3 db center">
+            <Logo />
           </Link>
           <div className="bt b--black-10 pv3 nowrap overflow-x-auto">
             <ul className="pl3 pb3 list tc">

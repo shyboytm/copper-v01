@@ -13,24 +13,24 @@ class Sidebar extends Component {
             <img className="dim w-60 pb3 db center" src={logoImage} alt="Quarry" />
           </Link>
           <ul className="list">
-            <Link>
-              <li className="forward pv3">Projects</li>
+            <Link to="/" className="link">
+              <li className="black forward pv3">Projects</li>
             </Link>
-            <Link>
-              <li className="forward pv3">About</li>
+            <Link to="/about" className="link">
+              <li className="black forward pv3">About</li>
             </Link>
             <a href="mailto:contact@usequarry.com" className="link black">
               <li className="forward pv3">Contact</li>
             </a>
-            <Link>
-              <li className="forward pv3">Sponsor</li>
+            <Link to="/" className="link">
+              <li className="black forward pv3">Sponsor</li>
             </Link>
           </ul>
           <ul className="list mt2">
-            <Link>
+            <Link to="/" className="link">
               <li className="forward pv3 black-50">Newsletter</li>
             </Link>
-            <Link>
+            <Link to="/" className="link">
               <li className="forward pv3 black-50">Wallpapers</li>
             </Link>
           </ul>

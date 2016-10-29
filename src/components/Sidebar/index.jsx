@@ -13,7 +13,7 @@ class Sidebar extends Component {
             <img className="dim w-60 pb3 db center" src={logoImage} alt="Quarry" />
           </Link>
           <ul className="list">
-            <Link to="/" className="link">
+            <Link to="/projects" className="link">
               <li className="black forward pv3">Projects</li>
             </Link>
             <Link to="/about" className="link">

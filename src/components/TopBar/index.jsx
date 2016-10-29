@@ -14,25 +14,25 @@ class TopBar extends Component {
           </Link>
           <div className="bt b--black-10 pv3 nowrap overflow-x-auto">
             <ul className="pl3 pb3 list tc">
-              <Link>
-                <li className="link f5 dib mr4">Projects</li>
+              <Link to="/projects" className="link black">
+                <li className="f5 dib mr4">Projects</li>
+              </Link>
+              <Link to="/about" className="link black">
+                <li className="f5 dib mr4">About</li>
+              </Link>
+              <Link to="/contact" className="link black">
+                <li className="f5 dib mr4">Contact</li>
               </Link>
               <Link>
-                <li className="link f5 dib mr4">About</li>
-              </Link>
-              <Link>
-                <li className="link f5 dib mr4">Contact</li>
-              </Link>
-              <Link>
-                <li className="link f5 dib mr4">Sponsor</li>
+                <li className="f5 dib mr4">Sponsor</li>
               </Link>
             </ul>
             <ul className="pl3 list mt2 tc">
               <Link>
-                <li className="link f5 dib mr4 black-50">Newsletter</li>
+                <li className="f5 dib mr4 black-50">Newsletter</li>
               </Link>
               <Link>
-                <li className="link f5 dib mr4 black-50">Wallpapers</li>
+                <li className="f5 dib mr4 black-50">Wallpapers</li>
               </Link>
             </ul>
           </div>

@@ -8,9 +8,9 @@ class Sidebar extends Component {
 
     return (
       <div id="Sidebar">
-        <div className="w-15-l h-100 ph2 pv4 fixed br b--black-10 fl dib-l dn">
+        <div className="w-15-l h-100 ph1 pv4 fixed br b--black-10 fl dib-l dn">
           <Link to="/">
-            <img className="dim w-60 pb3 db center" src={logoImage} alt="Quarry" />
+            <img className="dim w4 pb3 db center" src={logoImage} alt="Quarry" />
           </Link>
           <ul className="list">
             <Link to="/projects" className="link">

@@ -32,7 +32,7 @@
   .lh-subtitle-ns  { line-height: 1.75em; }
 }
 
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 60em) {
   .w-15-l { width: 15%; }
   .w-85-l { width: 85%; }
 }

@@ -14,6 +14,8 @@ class Projects extends Component {
     const imgCalligritype =  require('../../img/calligritype-cover.jpg');
     const imgShopDrones   =  require('../../img/shop-drones-cover.jpg');
     const imgFieldy       =  require('../../img/fieldy-cover.jpg');
+    const imgPrisma       =  require('../../img/prisma-cover.jpg');
+    const imgIllustree    =  require('../../img/illustree-cover.jpg');
 
     return (
       <div id="Projects">
@@ -34,25 +36,43 @@ class Projects extends Component {
               projectTitle="Sogol"
               projectDescription="Hand crafted and on-demand logos for your ideas"
               projectUrlColor="sogol-color"
-              projectUrl="sogol.co" />
+              projectDisplayUrl="sogol.co"
+              projectUrl="http://sogol.co" />
             <Project
               projectImageSource={imgCalligritype}
               projectTitle="Calligritype"
               projectDescription="A place for artists &amp; designers"
               projectUrlColor="black"
-              projectUrl="calligritype.us" />
+              projectDisplayUrl="calligritype.us"
+              projectUrl="http://calligritype.us" />
             <Project
               projectImageSource={imgShopDrones}
               projectTitle="Shop Drones Co."
               projectDescription="Drone shopping made beautifully simple"
               projectUrlColor="red"
-              projectUrl="shopdrones.co" />
+              projectDisplayUrl="shopdrones.co"
+              projectUrl="http://shopdrones.co" />
             <Project
               projectImageSource={imgFieldy}
               projectTitle="Fieldy"
               projectDescription="Unofficial resources for lovers of Field Notes"
               projectUrlColor="fieldy-color"
-              projectUrl="fieldy.co" />
+              projectDisplayUrl="fieldy.co"
+              projectUrl="http://fieldy.co" />
+            <Project
+              projectImageSource={imgPrisma}
+              projectTitle="Prisma"
+              projectDescription="A beautiful and minimal dark UI and syntax theme for the text editor Atom."
+              projectUrlColor="orange"
+              projectDisplayUrl="atom.io"
+              projectUrl="http://atom.io/fromcortes" />
+            <Project
+              projectImageSource={imgIllustree}
+              projectTitle="Illustree"
+              projectDescription="A resource and showcase for illustration inspiration"
+              projectUrlColor="green"
+              projectDisplayUrl="@illustree"
+              projectUrl="http://instagram.com/illustree" />
           </div>
 
           <ContactUs />

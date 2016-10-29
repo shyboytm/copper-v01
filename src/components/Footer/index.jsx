@@ -3,9 +3,6 @@ import { Link } from 'react-router';
 
 class Footer extends Component {
   render() {
-
-    const logoImage = require('../../img/quarry-white-logomark.png');
-
     return (
       <div id="Footer" className="w-100 pv5 ph4 bg-black">
         <div className="cf center w-80">

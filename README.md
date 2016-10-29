@@ -7,8 +7,8 @@ Hosted on [usequarry.com](http://usequarry.com)
 ##Get Started
 
 ```
-git clone https://github.com/fromcortes/mocha.git
-cd mocha
+git clone https://github.com/usequarry/copper.git
+cd copper
 npm install (first time only)
 npm start
 ```

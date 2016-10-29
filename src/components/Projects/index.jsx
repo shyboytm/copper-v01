@@ -33,7 +33,7 @@ class Projects extends Component {
               projectImageSource={imgSogol}
               projectTitle="Sogol"
               projectDescription="Hand crafted and on-demand logos for your ideas"
-              projectUrlColor="light-pink"
+              projectUrlColor="sogol-color"
               projectUrl="sogol.co" />
             <Project
               projectImageSource={imgCalligritype}
@@ -51,7 +51,7 @@ class Projects extends Component {
               projectImageSource={imgFieldy}
               projectTitle="Fieldy"
               projectDescription="Unofficial resources for lovers of Field Notes"
-              projectUrlColor="gold"
+              projectUrlColor="fieldy-color"
               projectUrl="fieldy.co" />
           </div>
 

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Sidebar from '../Sidebar';
 import TopBar from '../TopBar';
 import Contact from '../Contact';
+import Footer from '../Footer';
 
 class Home extends Component {
   render() {
@@ -72,6 +73,7 @@ class Home extends Component {
           </div>
 
           <Contact />
+          <Footer />
 
         </div>
       </div>

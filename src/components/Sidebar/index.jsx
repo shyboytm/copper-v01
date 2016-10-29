@@ -18,7 +18,7 @@ class Sidebar extends Component {
             <Link to="/about" className="link">
               <li className="black forward pv3">About</li>
             </Link>
-            <Link href="/contact" className="link black">
+            <Link to="/contact" className="link black">
               <li className="forward pv3">Contact</li>
             </Link>
             <Link to="/" className="link">

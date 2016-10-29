@@ -1,7 +1,7 @@
 @import "tachyons.min.css";
 
 /* Global */
-.usual                { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
+.usual                { font-family: 'Usual', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Helvetica Neue', sans-serif; }
 .t-tracking           { letter-spacing: 1px; }
 .lh-subtitle          { line-height: 1.75em; }
 .q-shadow-hover       { box-shadow: 0px 1px 2px 0px rgba(0,0,0, 0.2); transition: box-shadow 0.5s;}

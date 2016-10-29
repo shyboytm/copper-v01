@@ -19,9 +19,9 @@ class Sidebar extends Component {
             <Link to="/about" className="link">
               <li className="black forward pv3">About</li>
             </Link>
-            <a href="mailto:contact@usequarry.com" className="link black">
+            <Link href="/contact" className="link black">
               <li className="forward pv3">Contact</li>
-            </a>
+            </Link>
             <Link to="/" className="link">
               <li className="black forward pv3">Sponsor</li>
             </Link>

@@ -18,7 +18,8 @@ class Projects extends Component {
             title="Our Projects"
             description="Quarry is a company that creates companies. We are a team of
             two that create simple, beautiful, and useful digital resources and experiences.
-            We focus on making things that help others." />
+            We focus on making things that help others."
+            backgroundColor="bg-green" />
           <ContactUs />
           <Footer />
 

@@ -4,21 +4,28 @@ class Banner extends Component {
 
   static propTypes = {
     title: React.PropTypes.string.isRequired,
-    description: React.PropTypes.string.isRequired
+    descriptionSize: React.PropTypes.string,
+    description: React.PropTypes.string.isRequired,
+    backgroundColor: React.PropTypes.string.isRequired
   };
 
   render() {
 
-    const { title, description } = this.props;
+    const {
+      title,
+      descriptionSize,
+      description,
+      backgroundColor
+    } = this.props;
 
     return (
-      <div id="Banner" className="mv0 w-100">
-          <div className="bg-black pa6-l pa5-m ph4 pv5 cf">
+      <div id="Banner" className={backgroundColor}>
+          <div className="pa6-l pa5-m ph4 pv5 cf">
             <div className="w-100">
-              <h1 className="mt0 mb4 fw4 f2-ns f3 white t-tracking lh-title">
+              <h1 className="mt0 mb4 fw4 f2-ns f3 white t-tracking lh-copy">
                 {title}
               </h1>
-              <p className="mb0 lh-copy measure white-70">
+              <p className="mb0 white-70 f3-ns f4 fw3 lh-copy lh-custom-ns">
                 {description}
               </p>
             </div>

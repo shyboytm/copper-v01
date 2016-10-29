@@ -1,9 +1,11 @@
 @import "tachyons.min.css";
 
+/* Global */
 .usual      { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
 .t-tracking { letter-spacing: 1px; }
+.lh-custom  { line-height: 2em; }
 
-/* Forward */
+  /* forward */
 .forward {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -12,11 +14,18 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 .forward:hover, .forward:focus, .forward:active {
   -webkit-transform: translateX(8px);
   transform: translateX(8px);
 }
 
+  /* not small */
+@media only screen and (min-width: 40em) {
+  .lh-custom-ns  { line-height: 2em; }
+}
+
+/* Projects Page */
 .project-image {
   background-image: url("http://www.cortes.us/wp-content/uploads/2016/10/projects-home-photo.jpg") !important;
   background-position: top right;

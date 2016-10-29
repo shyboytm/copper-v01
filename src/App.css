@@ -7,6 +7,7 @@
 .q-shadow-hover       { box-shadow: 0px 1px 2px 0px rgba(0,0,0, 0.2); transition: box-shadow 0.5s;}
 .q-shadow-hover:hover { box-shadow: 0px 10px 20px -7px rgba(0,0,0, 0.2); transition: box-shadow 0.5s; }
 .w-15                 { width: 15%; }
+.st0                  { fill:#000000; }
 
   /* colors */
 .sogol-color  { color: #EBC9B5; }

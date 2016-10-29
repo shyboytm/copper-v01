@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Logo from '../Logo';
+
 class Sidebar extends Component {
   render() {
 
@@ -9,8 +11,8 @@ class Sidebar extends Component {
     return (
       <div id="Sidebar">
         <div className="w-15-l h-100 ph1 pv4 fixed br b--black-10 fl dib-l dn">
-          <Link to="/">
-            <img className="dim w4 pb3 db center" src={logoImage} alt="Quarry" />
+          <Link to="/" className="dim w4 db center">
+            <Logo />
           </Link>
           <ul className="list">
             <Link to="/projects" className="link">

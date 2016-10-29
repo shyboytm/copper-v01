@@ -15,11 +15,13 @@ class About extends Component {
         <div id="About-Page" className="mv0 fr w-85-l w-100 bg-white-ns bg-white">
 
           <Banner
+            titleStyles="black"
             title="About Us"
+            descriptionStyles="black-60"
             description="Quarry is a company that creates companies. We are a team of
               two that create simple, beautiful, and useful digital resources and experiences.
               We focus on making things that help others."
-            backgroundColor="bg-blue" />
+            backgroundColor="bg-black-10" />
 
           <ContactUs />
           <Footer />

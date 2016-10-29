@@ -17,8 +17,8 @@ class About extends Component {
           <Banner
             title="About Us"
             description="Quarry is a company that creates companies. We are a team of
-            two that create simple, beautiful, and useful digital resources and experiences.
-            We focus on making things that help others."
+              two that create simple, beautiful, and useful digital resources and experiences.
+              We focus on making things that help others."
             backgroundColor="bg-blue" />
 
           <ContactUs />

@@ -1,9 +1,9 @@
 @import "tachyons.min.css";
 
 /* Global */
-.usual      { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
-.t-tracking { letter-spacing: 1px; }
-.lh-custom  { line-height: 2em; }
+.usual        { font-family: 'Usual', 'Helvetica Neue', sans-serif; }
+.t-tracking   { letter-spacing: 1px; }
+.lh-subtitle  { line-height: 1.75em; }
 
   /* forward */
 .forward {
@@ -22,7 +22,7 @@
 
   /* not small */
 @media only screen and (min-width: 40em) {
-  .lh-custom-ns  { line-height: 2em; }
+  .lh-subtitle-ns  { line-height: 1.75em; }
 }
 
 /* Projects Page */

@@ -21,8 +21,8 @@ class Home extends Component {
           <Banner
             title="Curated Resources for Humans"
             description="Quarry is a company that creates companies. We are a team of
-            two that create simple, beautiful, and useful digital resources and experiences.
-            We focus on making things that help others."
+              two that create simple, beautiful, and useful digital resources and experiences.
+              We focus on making things that help others."
             backgroundColor="bg-black" />
 
           <div id="Our-Projects" className="cf">

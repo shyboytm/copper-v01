@@ -25,7 +25,7 @@ class Banner extends Component {
               <h1 className="mt0 mb4 fw4 f2-ns f3 white t-tracking lh-copy">
                 {title}
               </h1>
-              <p className="mb0 white-70 f3-ns f4 fw3 lh-copy lh-custom-ns">
+              <p className="mb0 white-70 f3-ns f4 fw3 lh-subtitle">
                 {description}
               </p>
             </div>

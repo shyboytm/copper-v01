@@ -17,7 +17,7 @@ class Home extends Component {
       <div id="Home">
         <Sidebar />
         <TopBar />
-        <div id="HomePage" className="mv0 fr w-80-l w-100 bg-white-ns bg-white">
+        <div id="HomePage" className="mv0 fr w-85-l w-100 bg-white-ns bg-white">
 
           <Banner
             title="Curated Resources for Humans"

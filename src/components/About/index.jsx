@@ -12,7 +12,7 @@ class About extends Component {
       <div id="About">
         <Sidebar />
         <TopBar />
-        <div id="About-Page" className="mv0 fr w-80-l w-100 bg-white-ns bg-white">
+        <div id="About-Page" className="mv0 fr w-85-l w-100 bg-white-ns bg-white">
 
           <Banner
             title="About Us"

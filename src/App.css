@@ -5,7 +5,12 @@
 .t-tracking           { letter-spacing: 1px; }
 .lh-subtitle          { line-height: 1.75em; }
 .q-shadow-hover       { box-shadow: 0px 1px 2px 0px rgba(0,0,0, 0.2); transition: box-shadow 0.5s;}
-.q-shadow-hover:hover  { box-shadow: 0px 10px 20px -7px rgba(0,0,0, 0.2); transition: box-shadow 0.5s; }
+.q-shadow-hover:hover { box-shadow: 0px 10px 20px -7px rgba(0,0,0, 0.2); transition: box-shadow 0.5s; }
+.w-15                 { width: 15%; }
+
+  /* colors */
+.sogol-color  { color: #F5D3C6; }
+.fieldy-color { color: #9F814F; }
 
   /* forward */
 .forward {
@@ -25,6 +30,11 @@
   /* not small */
 @media only screen and (min-width: 40em) {
   .lh-subtitle-ns  { line-height: 1.75em; }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .w-15-l { width: 15%; }
+  .w-85-l { width: 85%; }
 }
 
 /* Projects Page */

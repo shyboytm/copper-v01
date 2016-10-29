@@ -4,7 +4,6 @@ class Banner extends Component {
 
   static propTypes = {
     title: React.PropTypes.string.isRequired,
-    descriptionSize: React.PropTypes.string,
     description: React.PropTypes.string.isRequired,
     backgroundColor: React.PropTypes.string.isRequired
   };
@@ -13,7 +12,6 @@ class Banner extends Component {
 
     const {
       title,
-      descriptionSize,
       description,
       backgroundColor
     } = this.props;

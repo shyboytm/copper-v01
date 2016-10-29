@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Sidebar from '../Sidebar';
 import TopBar from '../TopBar';
-import Contact from '../Contact';
+import ContactUs from '../ContactUs';
 import Footer from '../Footer';
 
 class Projects extends Component {
@@ -26,7 +26,7 @@ class Projects extends Component {
             </div>
           </div>
 
-          <Contact />
+          <ContactUs />
           <Footer />
 
         </div>

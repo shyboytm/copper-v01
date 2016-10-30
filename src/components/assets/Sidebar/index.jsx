@@ -26,7 +26,7 @@ class Sidebar extends Component {
             </Link>
           </ul>
           <ul className="list mt2">
-            <Link to="/" className="link">
+            <Link to="/newsletter" className="link">
               <li className="forward pv3 black-50">Newsletter</li>
             </Link>
             <Link to="/" className="link">

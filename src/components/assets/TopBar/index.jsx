@@ -27,7 +27,7 @@ class TopBar extends Component {
               </Link>
             </ul>
             <ul className="pl3 list mt2 tc">
-              <Link>
+              <Link to="/newsletter" className="link black">
                 <li className="f5 dib mr4 black-50">Newsletter</li>
               </Link>
               <Link>

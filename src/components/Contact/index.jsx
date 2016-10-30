@@ -8,7 +8,7 @@ import Footer from '../Footer';
 class Contact extends Component {
   render() {
     return (
-      <div id="About">
+      <div id="Contact">
         <Sidebar />
         <TopBar />
         <div id="Contact-Page" className="mv0 fr w-85-l w-100 bg-white-ns bg-white">

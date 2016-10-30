@@ -22,7 +22,7 @@ class TopBar extends Component {
               <Link to="/contact" className="link black">
                 <li className="f5 dib mr4">Contact</li>
               </Link>
-              <Link>
+              <Link to="/sponsor" className="link black">
                 <li className="f5 dib mr4">Sponsor</li>
               </Link>
             </ul>

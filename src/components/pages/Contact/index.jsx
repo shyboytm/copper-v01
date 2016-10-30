@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Sidebar from '../Sidebar';
-import TopBar from '../TopBar';
-import Banner from '../Banner';
-import Footer from '../Footer';
+import Sidebar from '../../assets/Sidebar';
+import TopBar from '../../assets/TopBar';
+import Banner from '../../assets/Banner';
+import Footer from '../../assets/Footer';
 
 class Contact extends Component {
   render() {

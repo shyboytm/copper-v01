@@ -2,12 +2,12 @@ import React from 'react';
 import { IndexRoute, Router, Route, browserHistory } from 'react-router';
 import ReactDOM from 'react-dom';
 
-import About from './components/About';
+import About from './components/pages/About';
 import App from './App';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Sponsor from './components/Sponsor';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
+import Projects from './components/pages/Projects';
+import Sponsor from './components/pages/Sponsor';
 
 import './index.css';
 

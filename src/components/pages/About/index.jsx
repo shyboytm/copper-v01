@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Sidebar from '../Sidebar';
-import TopBar from '../TopBar';
-import Banner from '../Banner';
-import ContactUs from '../ContactUs';
-import Footer from '../Footer';
+import Sidebar from '../../assets/Sidebar';
+import TopBar from '../../assets/TopBar';
+import Banner from '../../assets/Banner';
+import ContactUs from '../../assets/ContactUs';
+import Footer from '../../assets/Footer';
 
 class About extends Component {
   render() {

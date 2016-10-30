@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
-import Sidebar from '../Sidebar';
-import TopBar from '../TopBar';
-import Banner from '../Banner';
-import Project from '../Project';
-import ContactUs from '../ContactUs';
-import Footer from '../Footer';
+import Sidebar from '../../assets/Sidebar';
+import TopBar from '../../assets/TopBar';
+import Banner from '../../assets/Banner';
+import Project from '../../assets/Project';
+import ContactUs from '../../assets/ContactUs';
+import Footer from '../../assets/Footer';
 
 class Projects extends Component {
   render() {
 
-    const imgSogol        =  require('../../img/sogol-cover.jpg');
-    const imgCrag         =  require('../../img/crag-supply-cover.jpg');
-    const imgCalligritype =  require('../../img/calligritype-cover.jpg');
-    const imgShopDrones   =  require('../../img/shop-drones-cover.jpg');
-    const imgFieldy       =  require('../../img/fieldy-cover.jpg');
-    const imgPrisma       =  require('../../img/prisma-cover.jpg');
-    const imgIllustree    =  require('../../img/illustree-cover.jpg');
+    const imgSogol        =  require('../../../img/sogol-cover.jpg');
+    const imgCrag         =  require('../../../img/crag-supply-cover.jpg');
+    const imgCalligritype =  require('../../../img/calligritype-cover.jpg');
+    const imgShopDrones   =  require('../../../img/shop-drones-cover.jpg');
+    const imgFieldy       =  require('../../../img/fieldy-cover.jpg');
+    const imgPrisma       =  require('../../../img/prisma-cover.jpg');
+    const imgIllustree    =  require('../../../img/illustree-cover.jpg');
 
     return (
       <div id="Projects">

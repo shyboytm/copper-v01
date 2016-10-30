@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import Sidebar from '../Sidebar';
-import TopBar from '../TopBar';
-import Banner from '../Banner';
-import ContactUs from '../ContactUs';
-import Footer from '../Footer';
+import Sidebar from '../../assets/Sidebar';
+import TopBar from '../../assets/TopBar';
+import Banner from '../../assets/Banner';
+import ContactUs from '../../assets/ContactUs';
+import Footer from '../../assets/Footer';
 
 class Home extends Component {
   render() {
 
-    const projectsMobileImage = require('../../img/projects-home-photo.jpg');
-    const dennisAvatar = require('../../img/dennis-avatar.png');
+    const projectsMobileImage = require('../../../img/projects-home-photo.jpg');
+    const dennisAvatar = require('../../../img/dennis-avatar.png');
 
     return (
       <div id="Home">

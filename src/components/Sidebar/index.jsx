@@ -11,7 +11,7 @@ class Sidebar extends Component {
           <Link to="/" className="dim w4 db center">
             <Logo />
           </Link>
-          <ul className="list">
+          <ul className="list mt4">
             <Link to="/projects" className="link">
               <li className="black forward pv3">Projects</li>
             </Link>

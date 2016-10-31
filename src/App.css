@@ -57,5 +57,6 @@
 }
 
 /* About Us Page */
+.neg-margin     { margin-top: -150px; }
 .timeline-outer { overflow-x: scroll; height: 210px; }
 .timeline-inner { width: 10000px; }

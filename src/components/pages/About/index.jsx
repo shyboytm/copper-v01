@@ -7,6 +7,9 @@ import Footer from '../../assets/Footer';
 
 class About extends Component {
   render() {
+
+    const ourStoryImage = require("../../../img/projects-home-photo.jpg");
+
     return (
       <div id="About">
         <Sidebar />
@@ -23,13 +26,14 @@ class About extends Component {
             backgroundColor="bg-blue" />
 
           <div id="Our-Story" className="ph6-l pv5-l pa5-m pa4 bg-near-white">
-            <div className="bg-white ph4 pv3">
+            <img class="relative z-1" src={ourStoryImage} alt="Our Story Banner" />
+            <div className="neg-margin relative z-max mh5 bg-white ph4 pv3">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Story</h2>
-              <div className="db overflow-hidden">
-                <p className="fl db w-50 lh-copy black-60 pr4-ns">
+              <div className="mt0 db overflow-hidden">
+                <p className="mt0 fl db w-50 lh-copy black-60 pr4-ns">
                   The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity. When darkness turns to day, the sun moves over the horizon and touches everything in sight. This movement across the landscape brightens everything. Such an illumination awakens us all.
                 </p>
-                <p className="fl db w-50 lh-copy black-60 pl4-ns">
+                <p className="mt0 fl db w-50 lh-copy black-60 pl4-ns">
                   The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity. When darkness turns to day, the sun moves over the horizon and touches everything in sight. This movement across the landscape brightens everything. Such an illumination awakens us all.
                 </p>
               </div>

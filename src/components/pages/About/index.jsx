@@ -27,7 +27,7 @@ class About extends Component {
 
           <div id="Our-Story" className="ph6-l pv5-l pa5-m pa4 bg-near-white">
             <img class="relative z-1" src={ourStoryImage} alt="Our Story Banner" />
-            <div className="mt3 neg-margin-ns relative z-max mh5-l mh4-m bg-white ph4 pv3">
+            <div className="mt3 neg-margin-ns relative z-max mh5-l mh4-m bg-white ph6-l pv5-l ph5-m pv4-m ph4 pv3">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Story</h2>
               <p className="mt0 db lh-subtitle black-60">
                 The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity. When darkness turns to day, the sun moves over the horizon and touches everything in sight. This movement across the landscape brightens everything. Such an illumination awakens us all.
@@ -79,7 +79,7 @@ class About extends Component {
             </div>
           </div>
 
-          <hr className="rotate b--black-025 w5" />
+          <hr className="fr-ns rotate b--black-025 w5" />
 
           <div id="Timeline" className="w-100 bg-near-white">
             <div className="overflow-auto ph6-l pt5-ns ph5-m pa4">

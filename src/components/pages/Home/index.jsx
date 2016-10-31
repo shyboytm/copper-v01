@@ -33,7 +33,7 @@ class Home extends Component {
               <img className="ma0 pa0 dn-l db" src={projectsMobileImage} alt="Workspace"/>
             </div>
             <div className="cf bg-near-white project-image">
-              <div className="bg-near-white fl w-60-l w-100 ph6-l pv5-l pa5-m pa4">
+              <div className="bg-near-white fl w-60-l w-100 pa6-l pa5-m pa4">
                 <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Projects</h2>
                 <p className="fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
                 <p className="fl mb5 lh-copy black-60">Phasellus non elementum ex. Morbi ullamcorper semper dolor, id varius lacus venenatis ac. Ut orci sem, ornare ac risus non, mollis posuere magna. Nam sit amet nisl feugiat, pulvinar metus a, pellentesque nisid varius lacus.</p>
@@ -43,12 +43,12 @@ class Home extends Component {
           </div>
 
           <div id="About-Us" className="content-end bg-white db cf">
-            <div className="bg-white fl w-60-l w-100 pl6-l pr5-l pv5-l pa5-m pa4">
+            <div className="bg-white fl w-60-l w-100 pl6-l pr5-l pv6-l pa5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">About Us</h2>
               <p className="mb5 fl lh-copy black-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie, nisl vitae aliquet volutpat, diam leo scelerisque nulla, quis tempor elit dolor at ante. Suspendisse fringilla finibus elit vel aliquam. Nam blandit erat erat, aliquet blandit neque scelerisque ac.</p>
               <Link className="fl f6 link dim br2 ph4 pv3 mb2 dib white bg-black" to="/about">Learn More</Link>
             </div>
-            <div className="fr bg-white w-40-l w-100 pv5-l pa5-m pa4">
+            <div className="fr bg-white w-40-l w-100 pv6-l pa5-m pa4">
               <div className="mv5-l mt2 mb5 fl w-100">
                 <div className="mr4 fl tc">
                   <img src={dennisAvatar}

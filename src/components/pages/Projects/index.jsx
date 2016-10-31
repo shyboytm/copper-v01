@@ -33,7 +33,7 @@ class Projects extends Component {
               We focus on making things that help others."
             backgroundColor="bg-black-10" />
 
-          <div id="Projects-Container" className="content-end flex flex-wrap ph6-l pv5-l pa5-m pa4">
+          <div id="Projects-Container" className="content-end flex flex-wrap pa6-l pa5-m pa4">
             <Project
               projectImageSource={imgSogol}
               projectTitle="Sogol"

@@ -79,7 +79,7 @@ class About extends Component {
             </div>
           </div>
 
-          <hr className="fr-ns rotate b--black-05 w5-ns w4" />
+          <hr className="fr-ns rotate b--black-025 w5-ns w4" />
 
           <div id="Timeline" className="w-100 bg-near-white pv6-l">
             <div className="overflow-auto ph6-l ph5-m pa4">

@@ -47,7 +47,7 @@ class About extends Component {
           </div>
 
           <div id="Timeline" className="w-100 bg-near-white">
-            <div className="overflow-auto ph6-l pv5-l pa5-m pa4">
+            <div className="overflow-auto ph6-l pt5-ns ph5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">Timeline</h2>
               <p className="fl lh-copy black-60 measure">
                 We are a team of two that create simple, beautiful digital experiences
@@ -56,7 +56,7 @@ class About extends Component {
               </p>
             </div>
             <div className="w-100 db">
-               <div className="w-100 nowrap overflow-x-auto ph6-l pb5-l pa5-m pa4">
+               <div className="w-100 nowrap overflow-x-scroll ph6-l pb5-l pa5-m pa4">
                  <div className="br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 blue">October 2016</h2>
                     <ul className="list pl0 ml0 center mw6">

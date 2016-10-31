@@ -27,7 +27,7 @@ class Banner extends Component {
               <h1 className="mt0 mb4 fw4 f2-ns f3 t-tracking lh-copy">
                 <span className={titleStyles}>{title}</span>
               </h1>
-              <p className="mb0 f3-ns f4 fw3 lh-subtitle">
+              <p className="mb0 f3-ns f4 fw3-ns fw4 lh-subtitle">
                 <span className={descriptionStyles}>{description}</span>
               </p>
             </div>

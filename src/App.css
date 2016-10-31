@@ -4,7 +4,7 @@
 .usual                { font-family: 'Usual', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Helvetica Neue', sans-serif; }
 .t-tracking           { letter-spacing: 1px; }
 .lh-subtitle          { line-height: 1.75em; }
-.q-shadow             { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.1); transition: box-shadow 0.5s;}
+.q-shadow             { box-shadow: 0px 10px 20px 0px rgba(0,0,0, 0.05); transition: box-shadow 0.5s;}
 .q-shadow-hover       { box-shadow: 0px 1px 2px 0px rgba(0,0,0, 0.2); transition: box-shadow 0.5s;}
 .q-shadow-hover:hover { box-shadow: 0px 10px 20px -7px rgba(0,0,0, 0.2); transition: box-shadow 0.5s; }
 .w-15                 { width: 15%; }
@@ -40,7 +40,7 @@
   /* not small */
 @media only screen and (min-width: 30em) {
   .lh-subtitle-ns  { line-height: 1.75em; }
-  .neg-margin-ns { margin-top: -150px; }
+  .neg-margin-ns { margin-top: -200px; }
 }
 
   /* large */

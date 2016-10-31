@@ -27,7 +27,7 @@ class About extends Component {
 
           <div id="Our-Story" className="ph6-l pv5-l pa5-m pa4 bg-near-white">
             <img class="relative z-1" src={ourStoryImage} alt="Our Story Banner" />
-            <div className="mt3 neg-margin-ns relative z-max mh6-ns bg-white ph4 pv3">
+            <div className="mt3 neg-margin-ns relative z-max mh5-l mh4-m bg-white ph4 pv3">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Story</h2>
               <p className="mt0 db lh-subtitle black-60">
                 The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity. When darkness turns to day, the sun moves over the horizon and touches everything in sight. This movement across the landscape brightens everything. Such an illumination awakens us all.
@@ -40,6 +40,8 @@ class About extends Component {
               </p>
             </div>
           </div>
+
+          <hr className="rotate b--black-025 w5" />
 
           <div id="Transparency">
             <div className="ph6-l pv5-l pa5-m pa4">
@@ -77,6 +79,8 @@ class About extends Component {
             </div>
           </div>
 
+          <hr className="rotate b--black-025 w5" />
+
           <div id="Timeline" className="w-100 bg-near-white">
             <div className="overflow-auto ph6-l pt5-ns ph5-m pa4">
               <h2 className="mb4 fw5 f3-ns f4 black lh-title">Timeline</h2>
@@ -91,37 +95,41 @@ class About extends Component {
                 <span className="fl f6 black-30">Latest</span>
                 <span className="fr f6 black-30">Scroll →</span>
               </div>
-               <div className="w-100 nowrap overflow-x-scroll ph6-l pb5-l pa5-m pa4">
-                 <div className="br2 q-shadow dib ph5-ns pa4 bg-white">
+               <div className="w-100 nowrap flex overflow-x-scroll ph6-l pb5-l pa5-m pa4">
+                 <div className="items-end br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 blue">November 2016</h2>
                     <ul className="list pl0 ml0 center mw6">
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Sogol</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Crag Supply</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Quarry's New Website</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Sogol</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Crag Supply</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Quarry's new website</li>
                     </ul>
                  </div>
-                 <div className="ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
+                 <div className="items-end ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 orange">October 2016</h2>
                     <ul className="list pl0 ml0 center mw6">
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Sogol</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Crag Supply</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Designed Quarry's New Website</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Started Quarry's new website</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Calligritype's website</li>
                     </ul>
                  </div>
-                 <div className="ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
+                 <div className="items-end ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 green">September 2016</h2>
                     <ul className="list pl0 ml0 center mw6">
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Sogol</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Crag Supply</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Designed Quarry's New Website</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Fieldy Reference</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Shop Drones Co. quiet launch</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Started working on Sogol</li>
                     </ul>
                  </div>
-                 <div className="ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
+                 <div className="items-end ml5-ns ml3 br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 purple">August 2016</h2>
                     <ul className="list pl0 ml0 center mw6">
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Sogol</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Launched Crag Supply</li>
-                      <li className="pv3 f3-ns f4 fw3-ns fw4 black-60">Designed Quarry's New Website</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Fieldy</li>
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Launched Quarry's website 1.0</li>
+                    </ul>
+                 </div>
+                 <div className="items-end ml5-ns ml3 br2 br--left q-shadow dib ph5-ns pa4 bg-white">
+                    <h2 className="f5 bold center mw6 black">July 2016</h2>
+                    <ul className="list pl0 ml0 center mw6">
+                      <li className="pv3 f3-ns f5 fw3-ns fw4 black-60">Quarry was established</li>
                     </ul>
                  </div>
                </div>

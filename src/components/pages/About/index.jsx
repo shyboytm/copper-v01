@@ -25,10 +25,10 @@ class About extends Component {
               We focus on making things that help others."
             backgroundColor="bg-blue" />
 
-          <div id="Our-Story" className="ph6-l pv5-l pa5-m pa4 bg-near-white">
+          <div id="Our-Story" className="pa6-l pa5-m pa4 bg-near-white">
             <img class="relative z-1" src={ourStoryImage} alt="Our Story Banner" />
             <div className="mt3 neg-margin-ns relative z-max mh5-l mh4-m bg-white ph6-l pv5-l ph5-m pv4-m ph4 pv3">
-              <h2 className="mb4 fw5 f3-ns f4 black lh-title">Our Story</h2>
+              <h2 className="mb4 fw5 f3 black lh-title">Our Story</h2>
               <p className="mt0 db lh-subtitle black-60">
                 The following article covers a topic that has recently moved to center stage–at least it seems that way. If you’ve been thinking you need to know more about unconditional love, here’s your opportunity. When darkness turns to day, the sun moves over the horizon and touches everything in sight. This movement across the landscape brightens everything. Such an illumination awakens us all.
               </p>
@@ -41,11 +41,11 @@ class About extends Component {
             </div>
           </div>
 
-          <hr className="rotate b--black-025 w5" />
+          <hr className="rotate b--black-05 w5-ns w4" />
 
           <div id="Transparency">
-            <div className="ph6-l pv5-l pa5-m pa4">
-              <h2 className="mb4 fw5 f3-ns f4 black lh-title">Transparency</h2>
+            <div className="ph6-l pv6-l pa5-m pa4">
+              <h2 className="mb4 fw5 f3 black lh-title">Transparency</h2>
               <p className="mb4 lh-copy black-60 measure">
                 We believe in oversharing and being open with our work. Helping others learn
                 from our successes and failures is one of the ways we give back.
@@ -79,11 +79,11 @@ class About extends Component {
             </div>
           </div>
 
-          <hr className="fr-ns rotate b--black-025 w5" />
+          <hr className="fr-ns rotate b--black-05 w5-ns w4" />
 
-          <div id="Timeline" className="w-100 bg-near-white">
-            <div className="overflow-auto ph6-l pt5-ns ph5-m pa4">
-              <h2 className="mb4 fw5 f3-ns f4 black lh-title">Timeline</h2>
+          <div id="Timeline" className="w-100 bg-near-white pv6-l">
+            <div className="overflow-auto ph6-l ph5-m pa4">
+              <h2 className="mb4 fw5 f3 black lh-title">Timeline</h2>
               <p className="fl lh-copy black-60 measure">
                 Remembering what we have done keeps us on track and lets us learn
                 what we are and are not doing well. It reminds us of our hard work
@@ -95,7 +95,7 @@ class About extends Component {
                 <span className="fl f6 black-30">Latest</span>
                 <span className="fr f6 black-30">Scroll →</span>
               </div>
-               <div className="w-100 nowrap flex overflow-x-scroll ph6-l pb5-l pa5-m pa4">
+               <div className="w-100 nowrap flex overflow-x-scroll ph6-l pa5-m pa4">
                  <div className="items-end br2 q-shadow dib ph5-ns pa4 bg-white">
                     <h2 className="f5 bold center mw6 blue">November 2016</h2>
                     <ul className="list pl0 ml0 center mw6">

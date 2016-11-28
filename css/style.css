@@ -260,7 +260,7 @@ html, body {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: San Francisco Display, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  font-family: "Usual", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif !important; }
 
 p {
   line-height: 30px !important; }
@@ -281,7 +281,8 @@ h5 {
     color: #FFFFFF;
     letter-spacing: 1px; }
   #banner p {
-    color: #F8F9F9; }
+    color: #F8F9F9;
+    font-size: 18px; }
   #banner .vert-center {
     position: absolute;
     top: 50%;

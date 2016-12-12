@@ -60,6 +60,7 @@ $yellow:            #FFCE54;
 // b. Backgrounds
 .white-background { background-color: $white; }
 .very-light-gray-background { background-color: $very-light-gray; }
+.blue-background { background-color: $blue }
 
 
 // c. Typography
@@ -71,6 +72,7 @@ $yellow:            #FFCE54;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.fw4 { font-weight: 400; }
 
 // d. Floats
 .left { float: left; }
@@ -284,6 +286,7 @@ h5 {
   p {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 400;
   }
 }
 
@@ -319,7 +322,6 @@ h5 {
 
 .contact-div {
   .contact {
-    background-color: $white;
     padding: 15px 30px;
     box-shadow: 0px 2px 5px rgba($black, 0.1);
     border-radius: 5px;
@@ -335,6 +337,7 @@ h5 {
   }
   span {
     font-size: 12px !important;
+    color: white;
   }
 }
 
@@ -354,6 +357,7 @@ h5 {
 .social-link          { color: $light-gray !important; font-weight: 700; }
 .shop-drones-link     { color: #FB4B4B !important; font-weight: 700; }
 .sogol-link           { color: #C1A070 !important; font-weight: 700; }
+.crag-link            { color: #BA5C49 !important; font-weight: 700; }
 .calligritype-link    { color: #000000 !important; font-weight: 700; }
 .illustree-link       { color: #73AE51 !important; font-weight: 700; }
 .prisma-link          { color: #F6A35A !important; font-weight: 700; }

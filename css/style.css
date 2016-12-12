@@ -46,6 +46,9 @@
 .very-light-gray-background {
   background-color: #F8F9F9; }
 
+.blue-background {
+  background-color: #5D9CEC; }
+
 .text-center {
   text-align: center; }
 
@@ -61,6 +64,9 @@
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 1px; }
+
+.fw4 {
+  font-weight: 400; }
 
 .left {
   float: left; }
@@ -345,7 +351,8 @@ h5 {
     color: #B8BDC4; }
   .company-copy p {
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-weight: 400; }
 
 #about {
   border-top: 1px solid #eaeded; }
@@ -369,7 +376,6 @@ h5 {
       float: left; } }
 
 .contact-div .contact {
-  background-color: #FFFFFF;
   padding: 15px 30px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -384,7 +390,8 @@ h5 {
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
 .contact-div span {
-  font-size: 12px !important; }
+  font-size: 12px !important;
+  color: white; }
 
 #footer {
   margin-top: 50px !important; }
@@ -406,6 +413,10 @@ h5 {
 
 .sogol-link {
   color: #C1A070 !important;
+  font-weight: 700; }
+
+.crag-link {
+  color: #BA5C49 !important;
   font-weight: 700; }
 
 .calligritype-link {
